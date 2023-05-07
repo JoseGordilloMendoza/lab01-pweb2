@@ -14,5 +14,10 @@ public class calculadora{
     public int add(int num1, int num2){
         return num1 + num2;
         }
+    
+    //Creamos el metodo resta de dos numeros
+    public int sub(int num1, int num2){
+        return num1 - num2;
+        }
 }
  
