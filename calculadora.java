@@ -8,6 +8,11 @@ public class calculadora{
         int numero1=sc.nextInt();
         System.out.print("Segundo numero: ");
         int numero2=sc.nextInt();
-    }
+        }
+    
+    //Creamos el metodo para sumar dos numeros
+    public int add(int num1, int num2){
+        return num1 + num2;
+        }
 }
  
