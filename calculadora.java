@@ -8,7 +8,27 @@ public class calculadora{
         int numero1=sc.nextInt();
         System.out.print("Segundo numero: ");
         int numero2=sc.nextInt();
-        }
+	System.out.print("\n\tOperaciones: \nSuma:0\nResta:1\nMultiplicacion:2\nDivision:3\nModulo/resto:4\n");
+	int opc=sc.nextInt();
+	if(opc==0){
+		System.out.println("El resultado de la suma es: "+add(numero1,numero2));
+	}
+	else if(opc==1){
+		System.out.println("El resultado de la resta es: "+sub(numero1,numero2));
+	}
+	    else if(opc==2){
+		System.out.println("El resultado de la multiplicacion es: "+mul(numero1,numero2));
+	}
+	    else if(opc==3){
+		System.out.println("El resultado de la division es: "+ div(numero1,numero2));
+	}
+	    else if(opc==4){
+		System.out.println("El resultado del modulo es: "+mod(numero1,numero2));
+	}
+	    else
+		 System.out.println("Elige una opcion valida");   
+        
+    }
     
     //Creamos el metodo para sumar dos numeros
     public int add(int num1, int num2){
