@@ -23,5 +23,9 @@ public class calculadora{
     public int mul(int num1, int num2){
         return num1 * num2;
         }
+	//Creamos el metodo para dividir dos numeros
+	public int div(int num1, int num2){
+		return num1 / num2;
+	}
 }
  
