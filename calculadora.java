@@ -19,5 +19,9 @@ public class calculadora{
     public int sub(int num1, int num2){
         return num1 - num2;
         }
+    //Creamos el metodo muiltiplicacion  de dos numeros
+    public int mul(int num1, int num2){
+        return num1 * num2;
+        }
 }
  
